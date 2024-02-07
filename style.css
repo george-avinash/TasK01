@@ -1,24 +1,41 @@
+/* Custom Styles */
+body {
+    background-color: #f9f9f9;
+}
+
 .container {
-    
-    border: 2px double black;
-   justify-content: center;
-    margin: 150px; 
-    padding: 15px 18px 15px 18px;
-}
-.col-12{
-    text-align: center;
+    margin-top: 50px;
 }
 
-.row-cols-3{
-    display:flex;
-    border: 2px solid black;
-    position:relative;
-
+h2, h3 {
+    color: #333;
 }
 
-.col-7{
- 
-  align-items: right;
-  justify-content: right;
-  text-align: center;
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
 }
